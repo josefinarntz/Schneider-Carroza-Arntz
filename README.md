@@ -59,4 +59,6 @@ _**Agustina:**_ esta investigación plantea la pregunta de cómo puede afectar e
 
 _**Josefina:**_ Para mí es importante realizar este tema para empoderar a los usuarios a tomar decisiones informadas a la hora de elegir qué productos comprar. Hace unos años, Netflix era una alternativa económica y conveniente para ver series y películas, pero ahora está la sensación de que hay que tener todas las aplicaciones para disfrutar de cine. Con este proyecto espero revelar las bondades y problemas de cada plataforma, para que quienes accedan a nuestro trabajo no “caigan” en las trampas del marketing. Las ideas que me gustaría realizar son: la competencia, el comportamiento de los usuarios y la industria del entretenimiento. Con este proyecto me gustaría aprender a contar una historia con medios digitales. 
 
+Link de la presentación: https://youtu.be/QjPlQ1ZL7IM
+
 
