@@ -1,0 +1,18 @@
+Josefina Arntz San Miguel
+
+1. Explicación de cómo se realizó el proceso de limpieza de datos, cada paso y decisión tomada
+- Importé la base de datos descargada con pandas.
+- Me daba error varias veces cuando la quería visualizar, entonces: eliminé las primeras cinco filas porque eran una imagen en el Excel orginal,
+- cambié el separador de "," a "\t" y 
+- ocupé el comando encoding="latin1" sugerido por Chat GPT.
+- Renombré las celdas de los headers.
+- Eliminé las primeras cinco columnas porque no contenían información. 
+- Eliminé las celdas de las series que no están disponibles globalmente. Tomé esta decisión porque podría generar sesgos en el análisis. Por ejemplo, una serie muy popular en la India no me da información valiosa sobre el desempeño de Netlfix a nivel global.
+
+2. Lista de las fuentes de datos utilizadas y una explicación de por qué las eligieron
+- What We Watched: A Netflix Engagement Report (https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report). Ocupamos esta base de datos para hacer la limpieza porque el "punto fuerte" reconocido de Netflix son las series. 
+
+3. Algunos ejemplos sobre preguntas que se pueden responder su base de datos limpia (3 mínimo)
+- ¿Qué tipo de contenidos son los más populares en Netflix?: Con esto podemos averiguar a qué audiencias la empresa pone sus mayores esfuerzos de contenido y qué es lo que busca la gente al contratar Netflix.
+- ¿Cuántos usuarios mueven las series más vistas de Netflix?: Podemos hacer comparaciones con otras plataformas de streaming (ejemplo ficticio: "La serie más vista de Max, 'Game of Thrones', mueve a más personas que la más vista en Netflix al año, 'The Night Agent'".
+- ¿Ha funcionado como estrategia para Netflix producir series de varias temporadas, reeboots y spin offs?
