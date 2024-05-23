@@ -1,0 +1,7 @@
+PROCEDIMIENTO – SCHNEIDER GARCÍA 
+-	Primero, busqué una base de datos en Google (acorde a nuestro tema) y encontré el siguiente el link: https://www.kaggle.com/datasets/mauryansshivam/netflix-ott-revenue-and-subscribers-csv-file
+-	Vi las variables y me di cuenta de que era efectivo y útil de utilizar. 
+-	Baje la base de datos en formato (.csv) y luego lo abrí en Google Collab desde Drive. 
+- Ingresé los códigos, para que Google Collab lea los datos 
+-	Descargue la información, la traspasé a Excel y luego empecé a organizar los datos. (archivo BASE DE DATOS - SCHNEIDER)  
+-	La información estaba muy precisa y concisa, asique lo único que hice fue reordenar las columnas en Excel y traducir las variables al español, para que fuera fácil de entender. 
