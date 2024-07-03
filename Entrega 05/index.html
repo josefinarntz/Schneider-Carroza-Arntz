@@ -33,6 +33,7 @@
             color: orange;
             font-size: 1.5em;
             margin-bottom: 10px;
+            cursor: pointer; /* Cambiamos el cursor a una mano para indicar que es un enlace */
         }
         
         p {
@@ -46,22 +47,31 @@
         <h1 class="titulo">El imperio de Netflix</h1>
     </header>
     <main>
-        <section>
-            <h2 class="indice">1. Introducción</h2>
+        <section id="introduccion">
+            <h2 class="indice" onclick="scrollToSection('introduccion')">1. Introducción</h2>
             <p>Texto de introducción...</p>
         </section>
-        <section>
-            <h2 class="indice">2. Historia de Netflix</h2>
+        <section id="historia">
+            <h2 class="indice" onclick="scrollToSection('historia')">2. Historia de Netflix</h2>
             <p>Texto sobre la historia de Netflix...</p>
         </section>
-        <section>
-            <h2 class="indice">3. Competencia en las OTTs</h2>
+        <section id="competencia">
+            <h2 class="indice" onclick="scrollToSection('competencia')">3. Competencia en las OTTs</h2>
             <p>Análisis de la competencia...</p>
         </section>
-        <section>
-            <h2 class="indice">4. Estrategias de supervivencia</h2>
+        <section id="estrategias">
+            <h2 class="indice" onclick="scrollToSection('estrategias')">4. Estrategias de supervivencia</h2>
             <p>Estrategias utilizadas por Netflix...</p>
         </section>
     </main>
+
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
 </body>
 </html>
