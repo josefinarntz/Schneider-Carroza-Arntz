@@ -6,10 +6,10 @@ El gran avance que ha tenido Netflix desde los 2010s ha sido tan grande y paulat
 ### Indice: 
 1)	INTRODUCCIÓN E INNOVACIÓN: Contextualización de situación o fenómeno: describir y explicar un fenómeno asociado con el éxito de Netflix (suscriptores, contenido, innovaciones, etc.) 
 2)	CONTENIDO Y PRECIO: Visualización de datos: visualizar de manera gráfica y cuantitativa datos relacionados con el fenómeno descrito 
-  <p> 2b)	Análisis de los datos: se detallan ciertas ideas que se pueden concluir de la lectura de la base de datos y cómo se relaciona con el éxito de Netflix </p>
+  -	Análisis de los datos: se detallan ciertas ideas que se pueden concluir de la lectura de la base de datos y cómo se relaciona con el éxito de Netflix </p>
  
   3) CONCLUSIÓN: Conclusión final: detalles finales y reforzamiento de idea del éxito de Netflix 
- <p> 3b) Datos curiosos: comparaciones de Netflix con otras OTTs </p>
+  - Datos curiosos: comparaciones de Netflix con otras OTTs </p>
 
 ### Link Youtube
 https://us04web.zoom.us/j/72296805796?pwd=FNaxGv2LsWYa5b3sEU9xacm4mv9sUC.1 
