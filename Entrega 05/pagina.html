@@ -12,7 +12,7 @@
             margin: 0;
             padding: 0;
             display: grid;
-            grid-template-rows: auto 1fr; /* Primera fila para el encabezado, segunda fila para el contenido y el índice */
+            grid-template-rows: auto auto 1fr; /* Primera fila para el encabezado, segunda para el índice, tercera para el contenido */
         }
         
         header {
@@ -30,7 +30,7 @@
         main {
             padding: 20px;
             display: grid;
-            grid-template-columns: auto 200px; /* Columna para el contenido y otra para el índice */
+            grid-template-columns: auto 1fr; /* Primera columna para el índice, segunda para el contenido */
             grid-gap: 20px; /* Espacio entre las columnas */
         }
         
@@ -58,8 +58,14 @@
             font-size: 1.0em;
         }
         
+        .contenido-container {
+            display: flex;
+            flex-wrap: wrap; /* Permitir que el contenido se envuelva en filas */
+            gap: 20px; /* Espacio entre las secciones de contenido */
+        }
+        
         section {
-            margin-bottom: 40px;
+            flex: 1; /* Permitir que las secciones de contenido se expandan para llenar el espacio disponible */
         }
         
         h2 {
@@ -92,7 +98,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="contenido-container">
             <section id="introduccion">
                 <h2>Introducción</h2>
                 <p>Netflix se ha mantenido vigente en el escenario de proliferación de nuevas plataformas gracias a su oferta de contenido y otras estrategias para mantener usuarios activos.</p>
