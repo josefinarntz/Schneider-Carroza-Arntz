@@ -1,4 +1,11 @@
 ## Entrega 05
+#### Nuestra página está dirigida a quiénes quieren saber qué hay detrás del éxito de Netflix. Pasan los años, aumenta la competencia y también evolucionan las necesidades del usuario. Por esta razón, tras nuestra investigación queremos mostrar la fórmula del éxito de la plataforma, la cual sigue liderando dentro de los servcios de streaming.
+
+#### Para esto, hicimos la página de forma que el lector pueda seguir una linea. Partimos con una introducción sobre la plataforma. Ahí también ahondaremos en las medidas innnovadoras que han implementado en el pasar de los años para pdoer seguir manteniendo a sus usuarios. Luego explicaremos el tema de los precios. Donde mostramos la relación que existe en cuanto al tamaño de la biblioteca pero podemos ver que esto no afecta el número de suscriptores. Al igual que el desmentir el supuesto efecto negativo que tuvo la prohibición de claves compartidas. La cual probó que aunque cambien lso precios, el público se mantiene. 
+
+#### En cuanto al contenido. Otra de las medidas que implementa Netflix es leer a su usuario. Lo estudia y trabaja para ofrecerle contenido según sus gustos, manteniendo su satisfacción con el servicio. 
+
+
 ### Titular: El imperio de Netflix: cómo la plataforma ha logrado sobrevivir a la guerra de las OTTs
 #### Bajada
 El gran avance que ha tenido Netflix desde los 2010s ha sido tan grande y paulatino, que se ha visto una batalla entre esta gran empresa contra otros servicios de streaming. Sin embargo, ¿qué conclusiones podemos sacar del éxito de esta plataforma?: ¿Cuál es la estrategia que usa? ¿Qué innovaciones ha aplicado? ¿cómo afecta el contenido o el precio al número de suscriptores? 
