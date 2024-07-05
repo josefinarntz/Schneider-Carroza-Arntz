@@ -12,13 +12,16 @@
             margin: 0;
             padding: 0;
             display: grid;
-            grid-template-rows: auto auto 1fr; /* Primera fila para el encabezado, segunda para el índice, tercera para el contenido */
+            grid-template-rows: auto 1fr; /* Primera fila para el encabezado, segunda para el contenido */
         }
         
         header {
             background-color: #222;
             padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         
         .titulo {
@@ -29,9 +32,6 @@
         
         main {
             padding: 20px;
-            display: grid;
-            grid-template-columns: 1fr; /* Una sola columna para el contenido */
-            grid-gap: 20px; /* Espacio entre las secciones de contenido */
         }
         
         .indice-container {
@@ -72,26 +72,23 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1 class="titulo">STREAMVERSUS</h1>
+    <header id="top">
+        <h1 class="titulo">STREAMVERSE</h1>
         <h2 class="subtitulo">El imperio de Netflix</h2>
     </header>
     
     <main>
-        <section>
-            <div class="indice-container">
-                <nav>
-                    <ul>
-                        <li><a href="#introduccion">Introducción</a></li>
-                        <li><a href="#innovacion">Innovación</a></li>
-                        <li><a href="#relacion">Relación precio-suscripción</a></li>
-                        <li><a href="#contenido">Contenido de Netflix</a></li>
-                        <li><a href="#estrategias">Estrategias</a></li>
-                        <li><a href="#conclusion">Conclusión</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </section>
+        <div class="indice-container">
+            <nav>
+                <ul>
+                    <li><a href="#introduccion">Introducción</a></li>
+                    <li><a href="#innovacion">Innovación</a></li>
+                    <li><a href="#relacion">Relación precio-suscripción</a></li>
+                    <li><a href="#contenido">Contenido de Netflix</a></li>
+                    <li><a href="#conclusion">Conclusión</a></li>
+                </ul>
+            </nav>
+        </div>
         
         <section id="introduccion">
             <h2>Introducción</h2>
@@ -119,10 +116,6 @@
             <p>Reinventando el éxito con cada continuación...</p>
             <iframe src="https://ejemplo-de-visualizacion.html" width="600" height="400" frameborder="0" scrolling="no"></iframe>
         </section>
-
-        <section id="Estrategias">
-            <h2>Otras estrategias</h2>
-            <p>Análisis final sobre el impacto de Netflix...</p>
         
         <section id="conclusion">
             <h2>Conclusión</h2>
