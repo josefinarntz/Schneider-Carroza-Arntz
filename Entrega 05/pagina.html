@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>streamverse</title>
+        <style>
+            body {
+                background-color: #333;
+                color: #fff;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: grid;
+                grid-template-columns: 200px auto; /* Definimos dos columnas: una para el índice y otra para el contenido */
+            }
+            
+            header {
+                background-color: #222;
+                padding: 20px;
+                text-align: center;
+                grid-column: span 2; /* Ocupa las dos columnas del grid */
+            }
+            
+            .titulo-principal {
+                font-size: 2.5em;
+                margin: 0;
+                color: orange;
+            }
+            
+            .subtitulo {
+                font-size: 1.5em;
+                margin: 0;
+            }
+            
+            main {
+                padding: 20px;
+            }
+            
+            .indice {
+                color: orange;
+                font-size: 1.5em;
+                margin-bottom: 10px;
+                cursor: pointer; /* Cambiamos el cursor a una mano para indicar que es un enlace */
+            }
+            
+            p {
+                font-size: 1em;
+                line-height: 1.6;
+            }
+    
+            .indice-column {
+                padding-right: 20px; /* Espacio a la derecha para separar del contenido */
+                position: sticky;
+                top: 20px; /* Fijar el índice cuando se desplaza */
+                align-self: flex-start; /* Alinear arriba del grid */
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo-principal">STREAMVERSE</h1>
+            <h2 class="subtitulo">El imperio de Netflix</h2>
+        </header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El imperio de Netflix</title>
