@@ -32,73 +32,95 @@
             padding: 20px;
         }
         
-        .indice {
-            color: orange;
-            font-size: 1.0em;
+        .indice-container {
+            position: sticky;
+            top: 0;
+            background-color: #222;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000; /* Asegura que esté por encima del contenido */
+            grid-column: 1; /* Asegura que ocupe solo la primera columna */
+        }
+        
+        .indice-container ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .indice-container li {
             margin-bottom: 10px;
-            cursor: pointer; /* Cambiamos el cursor a una mano para indicar que es un enlace */
+        }
+
+        .indice-container a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.0em;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: orange;
         }
         
         p {
-            font-size: 1em;
-            line-height: 1.0;
-        }
-
-        .indice-column {
-            padding-right: 20px; /* Espacio a la derecha para separar del contenido */
-            position: sticky;
-            top: 20px; /* Fijar el índice cuando se desplaza */
-            align-self: flex-start; /* Alinear arriba del grid */
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 class="titulo">El imperio de Netflix</h1>
+        <h1 class="titulo">STREAMVERSE</h1>
+        <h2 class="subtitulo">El imperio de Netflix</h2>
     </header>
-    <div class="indice-column">
+    
+    <div class="indice-container">
         <nav>
             <ul>
-                <li><a href="#introduccion" class="indice">Introducción</a></li>
-                <li><a href="#estrategia" class="indice">Innovación</a></li>
-                <li><a href="#relación" class="indice">Precio-suscripción</a></li>
-                <li><a href="#contenido" class="indice">Contenido de Netflix </a></li>
-                <li><a href="#conclusión" class="indice">Conclusión</a></li>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#innovacion">Innovación</a></li>
+                <li><a href="#relacion">Relación precio-suscripción</a></li>
+                <li><a href="#contenido">Contenido de Netflix</a></li>
+                <li><a href="#conclusion">Conclusión</a></li>
             </ul>
         </nav>
     </div>
+    
     <main>
         <section id="introduccion">
             <h2>Introducción</h2>
-            <p>Netflix se ha mantenido vigente en el escenario de proliferación de nuevas plataformas gracias a su oferta de contenido y otras estrategias para mantener usuarios activos.
-
-               <p></p> La compañía fundada en 1997 por Reed Hastings, y Marc Randolph, partió con la venta de DVDs en formato online. En 2007 comenzó a ofrecer transmisión de video en línea a través de su sitio web, lo que permitió a los usuarios ver películas y programas de televisión directamente en sus computadoras. Desde entonces, el crecimiento de la empresa ha sido imparable, logrando ser la plataforma de contenido más importante del mundo. </p>
+            <p>Netflix se ha mantenido vigente en el escenario de proliferación de nuevas plataformas gracias a su oferta de contenido y otras estrategias para mantener usuarios activos.</p>
             
-                
-                <p></p>En los últimos años hemos presenciado la llegada de nuevas aplicaciones como MAX, Disney +, Amazon Prime Video, Paramount Plus, entre otros. Lo que ha significado la migración de usuarios de Netflix y la ampliación de la competencia, pero lo que ha hecho Netflix es reinventarse una y otra vez.  Si bien están quienes buscan diversidad de contenidos, series y películas originales, y además rechazan políticas de la plataforma como la prohibición de compartir la cuenta personal, se ha evidenciado que esto no ha afectado el número de suscriptores. Al contrario, esta medida fue beneficiaria para la compañía y también ha probado que los consumidores de sus servicios están dispuestos a pagar por tenerlo. 
-                
-               <p></p> Hay un cambio de paradigma en el entretenimiento que estamos presenciando con el trabajo de Netflix. La innovación que implica la competencia en el mundo del streaming está obligando a la industria a buscar nuevas ideas –de forma rápida- con series y películas interactivas, contenidos en vivo, la inclusión del deporte competitivo, etc.
-                </p>
+            <p>La compañía fundada en 1997 por Reed Hastings y Marc Randolph comenzó con la venta de DVDs en formato online. En 2007 empezó a ofrecer transmisión de video en línea a través de su sitio web, lo que permitió a los usuarios ver películas y programas de televisión directamente en sus computadoras. Desde entonces, el crecimiento de la empresa ha sido imparable, convirtiéndose en la plataforma de contenido más importante del mundo.</p>
+            
+            <p>En los últimos años hemos presenciado la llegada de nuevas aplicaciones como MAX, Disney+, Amazon Prime Video, Paramount Plus, entre otros. Esto ha significado la migración de usuarios de Netflix y ha ampliado la competencia. Sin embargo, Netflix ha sabido reinventarse una y otra vez. A pesar de controversias como la prohibición de compartir cuentas personales, la plataforma ha mantenido e incluso aumentado su base de suscriptores.</p>
+            
+            <p>Estamos presenciando un cambio de paradigma en el entretenimiento con el trabajo innovador de Netflix. La competencia en el mundo del streaming está obligando a la industria a buscar nuevas ideas rápidamente, como series y películas interactivas, contenidos en vivo y la inclusión del deporte competitivo.</p>
         </section>
-        <section id="Innovación">
+        
+        <section id="innovacion">
             <h2>Innovación</h2>
-            <p>Texto sobre la historia de Netflix...</p>
+            <p>Texto sobre la innovación en Netflix...</p>
         </section>
-        <section id="Relación precio-suscripción">
+        
+        <section id="relacion">
             <h2>Relación precio-suscripción</h2>
-            <p>Análisis de la competencia...</p>
+            <p>Análisis de la competencia en términos de precio y suscripción...</p>
         </section>
-        <section id="Contenido de Netflix">
-                 <h2>Reinventando el Éxito con Cada Continuación</h2>
-                 <p>contenido + código</p>
-    <iframe src="codigo_para_visualizar_1
-.html" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        
+        <section id="contenido">
+            <h2>Contenido de Netflix</h2>
+            <p>Reinventando el éxito con cada continuación...</p>
+            <iframe src="https://ejemplo-de-visualizacion.html" width="600" height="400" frameborder="0" scrolling="no"></iframe>
         </section>
-        <section id="Conclusión">
+        
+        <section id="conclusion">
             <h2>Conclusión</h2>
-            <p>Análisis de la competencia...</p>
+            <p>Análisis final sobre el impacto de Netflix...</p>
         </section>
     </main>
-
 </body>
 </html>
